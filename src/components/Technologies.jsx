@@ -37,10 +37,9 @@ const Technologies = () => {
             initial="initial"
             animate="animate"
             variants={iconVariants(2.5)}
-            whileHover={{
-                scale: 1.1,
-                
-            }}
+            whileHover={{ scale: 1.1 }}
+      whileTap={{ scale: 0.9 }}
+      transition={{ type: "spring", stiffness: 400, damping: 10 }}
              className="p-4">
             <SiReact className="text-7xl text-cyan-400" />
             </motion.div>
@@ -48,10 +47,9 @@ const Technologies = () => {
             initial="initial"
             animate="animate"
             variants={iconVariants(2.5)}
-            whileHover={{
-                scale: 1.1,
-                
-            }}
+            whileHover={{ scale: 1.1 }}
+      whileTap={{ scale: 0.9 }}
+      transition={{ type: "spring", stiffness: 400, damping: 10 }}
              className="p-4">
                 <TbBrandNextjs className="text-7xl" />
             </motion.div>
@@ -59,10 +57,9 @@ const Technologies = () => {
             initial="initial"
             animate="animate"
             variants={iconVariants(2.5)}
-            whileHover={{
-                scale: 1.1,
-                
-            }}
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
             className="p-4">
                 <FaNodeJs className="text-7xl text-green-400"  />
             </motion.div>
@@ -81,10 +78,9 @@ const Technologies = () => {
             initial="initial"
             animate="animate"
             variants={iconVariants(2.5)}
-            whileHover={{
-                scale: 1.1,
-                
-            }}
+            whileHover={{ scale: 1.1 }}
+      whileTap={{ scale: 0.9 }}
+      transition={{ type: "spring", stiffness: 400, damping: 10 }}
             className="p-4">
                 <SiMongoose className="text-7xl text-green-400"  />
             </motion.div>
@@ -92,10 +88,9 @@ const Technologies = () => {
             initial="initial"
             animate="animate"
             variants={iconVariants(2.5)}
-            whileHover={{
-                scale: 1.1,
-                
-            }}
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
             className="p-4">
                 <SiExpress className="text-7xl text-white-400"  />
             </motion.div>
@@ -103,10 +98,9 @@ const Technologies = () => {
             initial="initial"
             animate="animate"
             variants={iconVariants(2.5)}
-            whileHover={{
-                scale: 1.1,
-                
-            }}
+            whileHover={{ scale: 1.1 }}
+      whileTap={{ scale: 0.9 }}
+      transition={{ type: "spring", stiffness: 400, damping: 10 }}
             className="p-4">
                 <SiJavascript className="text-7xl text-yellow-400"  />
             </motion.div>
@@ -114,10 +108,9 @@ const Technologies = () => {
             initial="initial"
             animate="animate"
             variants={iconVariants(2.5)}
-            whileHover={{
-                scale: 1.1,
-                
-            }}
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
             className="p-4">
                 <SiHtml5 className="text-7xl text-orange-400"  />
             </motion.div>
@@ -125,10 +118,9 @@ const Technologies = () => {
             initial="initial"
             animate="animate"
             variants={iconVariants(2.5)}
-            whileHover={{
-                scale: 1.1,
-                
-            }}
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            transition={{ type: "spring", stiffness: 400, damping: 10 }}
             className="p-4">
                 <SiFramer className="text-7xl text-orange-400"  />
             </motion.div>
@@ -136,10 +128,9 @@ const Technologies = () => {
             initial="initial"
             animate="animate"
             variants={iconVariants(2.5)}
-            whileHover={{
-                scale: 1.1,
-                
-            }}
+            whileHover={{ scale: 1.1 }}
+      whileTap={{ scale: 0.9 }}
+      transition={{ type: "spring", stiffness: 400, damping: 10 }}
             className="p-4">
                 <SiTailwindcss className="text-7xl text-blue-400"  />
             </motion.div>
@@ -147,10 +138,9 @@ const Technologies = () => {
             initial="initial"
             animate="animate"
             variants={iconVariants(2.5)}
-            whileHover={{
-                scale: 1.1,
-                
-            }}
+            whileHover={{ scale: 1.1 }}
+      whileTap={{ scale: 0.9 }}
+      transition={{ type: "spring", stiffness: 400, damping: 10 }}
             className="p-4">
                 <SiGithub className="text-7xl text-black-400"  />
             </motion.div>
