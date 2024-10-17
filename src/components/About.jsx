@@ -11,9 +11,13 @@ const About = () => {
     }
   return (
     <section className="px-6 py-10" id="about">
-        <h1 className=" text-4xl md:text-6xl font-medium tracking-tight mb-10">
+        <motion.h1
+        whileInView={{ opacity: 1, y: 0}}
+        initial={{ opacity: 0, y: -100}}
+        transition={{ duration: 1.5}}
+         className=" text-4xl md:text-6xl font-medium tracking-tight mb-10">
             About
-        </h1>
+        </motion.h1>
         <div className="h-1 w-20 mb-8 bg-white"></div>
         <div className="max-w4x-4xl mx-auto">
             {ABOUT_CONTENT.paragraphs.map((paragraph, index) => (
