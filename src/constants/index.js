@@ -33,7 +33,7 @@ export const PROJECTS = [
     name: "Campus Connect",
     description: "A Collaborative Full Stack App letting Users Connect and perform task",
     image: project4,
-    link: "https://github.com/misanthropic-codes/Coursity",
+    link: "https://github.com/misanthropic-codes/Campus-Connect",
   },
   
   {
