@@ -29,6 +29,13 @@ export const PROJECTS = [
     image: projects1,
     link: "https://github.com/misanthropic-codes/Coursity",
   },
+ {
+    name: "Campus Connect",
+    description: "A Collaborative Full Stack App letting Users Connect and perform task",
+    image: project3,
+    link: "https://github.com/misanthropic-codes/Coursity",
+  },
+  
   {
     name: "Authenticator",
     description: "Authentication Web Application built using Node.js Express.js and JWT",
