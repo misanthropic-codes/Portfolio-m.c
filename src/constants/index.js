@@ -1,7 +1,7 @@
 import projects1 from "../assets/projects1.webp";
 import projects2 from "../assets/projects2.webp";
 import projects3 from "../assets/projects3.webp";
-
+import project4 from "../assets/project4.webp"
 
 export const LINKS = [
   { href: "#technologies", label: "Technology" },
